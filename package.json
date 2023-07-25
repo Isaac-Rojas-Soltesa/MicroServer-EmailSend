@@ -1,0 +1,29 @@
+{
+  "name": "svgtopng",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isaac-Rojas-Soltesa/SVGtoPNG.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Isaac-Rojas-Soltesa/SVGtoPNG/issues"
+  },
+  "homepage": "https://github.com/Isaac-Rojas-Soltesa/SVGtoPNG#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1340.0",
+    "express": "^4.18.2",
+    "jsbarcode": "^3.11.5",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^1.19.4",
+    "pdf-creator-node": "^2.3.5",
+    "xmldom": "^0.6.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "env":{
+        "AMOUNT_REPLACE": "@@Amount@@",
+        "PAN_REPLACE": "@@Pan@@",
+        "PIN_REPLACE": "@@PIN@@",
+        "NAME_REPLACE":"@@Name@@",
+        "RUT":"@@RUT@@",
+        "BCODE_REPLACE":"@@BCode@@",
+        "EXP_REPLACE" : "@@Expiration@@",
+        "CURRENT_DATE" : "@@CurrentDate@@",
+        "QUEUE_URL":"https://sqs.us-east-1.amazonaws.com/351382557943/E-Queue",
+        "MAIL_SOURCE" : "irojas@soltesa.com",
+        "AWS_ACCESS_KEY_ID": "AKIAVDUAIKT3UG4BVCVT",      
+        "AWS_SECRET_ACCESS_KEY": "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",
+       "STATUS":"{\"SENT\":\"EV\",\"DELIVERY\":\"EN\",\"BOUNCE\":\"RE\",\"SENT_ERROR\":\"SE\"}",
+        "BOUNCE":"[{\"ID\":\"Undetermined-Undetermined\",\"DESC\" : \"Rechazo desconocido\",\"LVL\" : \"1\"},{\"ID\":\"Permanent-General\",    \"DESC\" : \"SRV destino rechazo el correo\",\"LVL\" : \"1\"},{\"ID\":\"Permanent-NoEmail\",\"DESC\" : \"Correo no existe\",\"LVL\" : \"1\"},{    \"ID\":\"Permanent-Suppressed\",\"DESC\" : \"SRV destino - lista supresion\",\"LVL\" : \"1\"},{\"ID\":\"Permanent-OnAccountSuppressionList\",    \"DESC\" : \"SRV destino - lista supresion\",\"LVL\" : \"1\"},{\"ID\":\"Transient-General\",    \"DESC\" : \"Rechazo temporal-OOF\",\"LVL\" : \"0\"},{\"ID\":\"Transient-MailboxFull\",\"DESC\" : \"Bandeja de entrada llena\",\"LVL\" : \"0\"},{\"ID\":\"Transient-MessageTooLarge\",\"DESC\" : \"Mensaje demasiado largo\",\"LVL\" : \"0\"},{\"ID\":\"Transient-ContentRejected\",\"DESC\" : \"SRV Destino rechazo contenido\",\"LVL\" : \"0\"},{\"ID\":\"Transient-AttachmentRejected\",\"DESC\" : \"SRV destino rechazo adjunto\",\"LVL\" : \"0\"}]"
+    }
+}

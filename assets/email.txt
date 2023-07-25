@@ -1,0 +1,206 @@
+<body style="width: 100%; background: #FFFFFF;">
+
+    <div style=" height: auto; width: 100%; background: #0071dc; align-items: center; padding-bottom: 0.7rem;">
+
+        <div style=" margin-right: 20%; margin-left: 20%; width: 60%; position: relative;">
+
+            <img style="width: 15%; padding-right: 15%; height: auto; text-align: start;"
+                src="https://i.postimg.cc/Y0QCqMJf/Icon-Lider.png">
+
+            <img style=" width: 15%; padding-right: 7%; padding-left: 7%; height: auto; text-align: center;"
+                src="https://i.postimg.cc/zf3DHnsf/Icon-TRV.png">
+
+
+            <label style="padding-left: 10%; width: 15%; font-family: Arial, Helvetica, sans-serif; font-style: normal; font-size: 14px; color: #FFFFFF; text-align: end;
+                 position: absolute; bottom: 0; right: 0;">
+                @@CurrentDate@@
+            </label>
+
+
+        </div>
+
+        <div style=" height: auto;
+        width: 50%;
+        margin-right: 21%;
+        margin-left: 21%;
+        margin-top: 1rem;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        display: grid;
+        grid-auto-flow: row;
+        grid-row-gap: 15px;
+        margin-bottom: 1rem;
+        padding: 3%;">
+
+            <div>
+                <label style="  font-family: Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                color: #000000;
+                width: 100%;">¡Hola @@Name@@!</label>
+            </div>
+
+            <div>
+                <label style="font-family: Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-size: 14px;
+                color: #000000;"> Has recibido una GiftCard Virtual para que compres lo que quieras en nuestros
+                    locales</label>
+            </div>
+
+
+            <div>
+                <img style=" width: 18%; margin-right: 7%; margin-left: 7%; height: auto;"
+                    src="https://i.postimg.cc/8PVCXf6y/Icon-Lider-blanco.png">
+                <img style=" width: 18%; margin-right: 7.5%; margin-left: 7.5%; height: auto;"
+                    src="https://i.postimg.cc/1tnz2pBd/Icon-express.png">
+                <img style=" width: 18%; margin-right: 7%; margin-left: 7%; height: auto;"
+                    src="https://i.postimg.cc/7ZHZwvX0/Icon-Super-Bodega.png">
+            </div>
+
+
+            <div style="  width: 100%;
+            text-align: center;">
+                <img style=" width: 60%;
+                height: auto;text-align: center;" src="https://i.postimg.cc/bvMyxZP9/Icon-TV.png">
+            </div>
+
+
+            <label style="font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            color: #0071DC;
+            text-align: center;">El saldo de tu tarjeta es de $@@Amount@@</label>
+
+            <label style=" font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-size: 16px;
+            color: #0071DC;
+            text-align: center;">Fecha de expiración: @@Expiration@@</label>
+
+            <div style="   width: 100%;
+            text-align: center;">
+                <button style="     background: #FFC221;
+                font-family: Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                border-radius: 72px;
+                width: fit-content;
+                border-color: #FFC221;
+                padding: 10px;
+                padding-left: 20px;
+                padding-right: 20px;">Consultar saldo y últimos movimientos</button>
+            </div>
+
+
+
+            <label style="    font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-size: 14px;
+            color: #000000;">Número de tarjeta: @@Pan@@ </label>
+            <br>
+            <label style=" font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-size: 14px;
+            color: #000000;">Código de seguridad: @@PIN@@</label>
+
+
+        </div>
+
+    </div>
+
+    <div style="height: auto;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 0.7rem;">
+        <div style=" height: auto;
+        width: 65%;
+        margin-right: 16%;
+        margin-left: 16%;
+        margin-top: 1rem;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        display: grid;
+        grid-auto-flow: row;
+        grid-row-gap: 15px;
+        margin-bottom: 1rem;
+        padding: 3%;
+        border: 1px solid #D9D9D9;">
+
+            <label style=" font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-size: 13px;
+            text-align: center;
+            color: #000000;">
+                Si tienes dudas o alguna consulta, estaremos felices de poder ayudar.
+            </label>
+
+            <label style=" font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-size: 13px;
+            text-align: center;
+            color: #000000;">
+                Puedes contactarnos a través del Call Center
+            </label>
+
+            <div style="text-align: center;">
+                <img style=" width: 100px; text-align: center;
+                height: 60px;
+                object-fit: contain;" src="https://i.postimg.cc/pXYLwVQP/Icon-Telefono.png">
+
+
+                <div style="text-align: center;">
+                    <div>
+                        <label style="font-family: Arial, Helvetica, sans-serif;
+                    font-style: normal;
+                    text-align: start;
+                    font-size: 13px;
+                    color: #0071DC;">Llámanos al</label>
+                    </div>
+
+                    <label style="font-family: Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                text-align: start;
+                font-size: 13px;
+                color: #0071DC;">600 600 8282</label>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div style="text-align: center;">
+        <label style="font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-size: 13px;
+            text-align: center;
+            color: #000000;">Mantente al día de todo lo que ocurre en nuestras redes sociales</label>
+
+        <div style="width: 40%;
+            height: auto;
+            margin-left: 30%;
+            margin-left: 30%;">
+            <img style=" width: 60%;
+                height: auto;
+                object-fit: contain;" src="https://i.postimg.cc/y8LYNfr5/iconos.png">
+        </div>
+
+        <label style="font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-size: 13px;
+            text-align: center;
+            color: #000000;">
+            Recuerda que nunca te pediremos datos personales ni financieros por correo
+            electrónico.
+        </label>
+    </div>
+    </div>
+
+
+</body>
